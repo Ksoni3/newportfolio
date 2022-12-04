@@ -1,38 +1,217 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  color: black;
+  font-family: 'Poppins', sans-serif
+  
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header{
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover ;
+  
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  transition: 1.2s all ease-in-out;
+  top: 0;
+  z-index: 100;
+ 
+  
+}
+
+.navbar_bg{
+  background-color: darkslategray;
+  color: white;
+  transition: 1.5s all ease-in-out;
+}
+.navbar_left-logo{
   display: flex;
-  flex-direction: column;
+
+}
+
+
+.navbar_left-logo img{
+ 
+  height: 70px;
+  margin-top: 16px;
+  margin-left: 50px;
+  border: 2px red;
+  border-radius: 10%;
+}
+
+.navbar_container{
+  display: flex;
+  align-items: center;
+}
+
+.navbar_right{
+  margin-top: 8px;
+  margin-left: 500px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+li{
+  list-style:none;
+  position: relative;
+  
+}
+
+a{
+  
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+.a_colorchange{
+  color: white;
+  transition: 1.5s all ease-in-out ;
+}
+
+
+
+a::after{
+  content:'';
+  height: 2px;
+  width: 0%;
+  background: red;
+  display: block;
+  transition: 0.3s ease-in-out;
+  
+ 
+  
+
+}
+
+a:hover::after{
+  content:'';
+  height: 2px;
+  width: 100%;
+  background: red;
+  display: block;
+}
+
+a:hover{
+  color: red;
+
+}
+
+
+
+.container{
+  width: fit;
+ 
+}
+
+/* //Grid system */
+.row {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  
+}
+
+.col-6{
+  margin-top: -30px;
+  width: 50%;
+  
+}
+
+.header_content{
+  border: 2px solid red;
+  margin: 0px 80px;
+  display: flex;
+ 
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  
+}
+
+.header_ul{
+  margin-top: 70px;
+  height: 50px;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin-bottom: 20px;
+ 
+
+}
+
+.header_section{
+  border: 2px solid blue;
+}
+
+.header_ul li{
+  height: 50x;
+  width: 50px;
+  border: 2px solid aqua;
+  border-radius: 50%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ 
+  
+  
+
 }
 
-.App-link {
-  color: #61dafb;
+
+
+h1{
+  margin-top: 30px;
+  font-size: 32px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p{
+ margin-top: 10px;
+ font-size: 24px;
+ font-family: 'Times New Roman', Times, serif;
+ font-style: italic;
+}
+.hbtns{
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+}
+
+
+.hbtns button{
+  
+  height: 40px;
+  width: 90px;
+  border-radius: 20px;
+  
+  border-color: aqua;
+  
+  
+  
+
+}
+/* Image on side */
+.profileimage img{
+  height: 450px;
+  width: 500p;
+  margin-top: 200px;
+  margin-left: 100px;
+  border-radius: 20%;
 }

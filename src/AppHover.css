@@ -1,0 +1,7 @@
+.header_ul li:hover{
+  
+    background: rgb(146, 91, 91);
+    transition: ease-in-out 200ms;
+  }
+
+  

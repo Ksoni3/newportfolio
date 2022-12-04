@@ -1,0 +1,125 @@
+.container_about{
+    height: 100vh;
+}
+.about_content{
+
+
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+
+.about_left img{
+    height: 400px;
+    margin-left: 150px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+}
+
+.about_right{
+    width: 50%;
+    height: 75vh;
+    margin-bottom: 20px;
+    margin-right: 80px;
+    box-shadow: 8px 3px 5px gainsboro;
+    
+   
+    
+}
+
+.about_right h1{
+   
+    padding: 40px 20px;
+    padding-top: 50px;
+    margin-left: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: -30px;
+    
+}
+
+.heading{
+    display: flex;
+     
+}
+
+.heading h2{
+    margin-top: 30px;
+    margin-left: -20px;
+    font-size: 32px;
+    font-weight: 400;
+    
+
+    
+}
+
+.about_right p{
+    text-align: center;
+   padding: 0px 20px 10px 10px;
+   line-height: 40px ;
+}
+
+/* .about_label{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 90%;
+    height: 150px;
+    box-shadow: 2px 2x 2px cyan;
+
+}
+.about_label label{
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    box-shadow: 1px  silver;
+    
+
+}
+.about_label label a{
+    color: blue;
+    font-size: 25px;
+    
+    
+
+} */
+
+.icons{
+    height: 30px;
+    width: 30px;
+    margin-top: 24px;
+}
+
+.about_label button{
+    height: 30px;
+   
+}
+.about_label a{
+   display: inline-block;
+   color: blue;
+   margin-left: 10px;
+   
+}
+.about_label p{
+    display: inline-block;
+    font-size: 22px;
+    
+ }
+     
+    
+
+
+
+
+
+
+
+   
+   
+    
+    
